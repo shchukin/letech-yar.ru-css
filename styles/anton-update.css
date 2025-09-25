@@ -200,3 +200,44 @@
         background-image: url("../images/media-telegram.svg");
     }
 
+
+
+.services-media {
+    padding-top: 16px;
+}
+    .services-media__heading {
+        font-size: 13px;
+        line-height: 20px;
+        font-weight: 600;
+    }
+
+    .services-media__list {
+        display: flex;
+        align-items: stretch;
+        gap: 12px;
+    }
+        .services-media__link {
+            padding: 8px 4px 8px 24px;
+            background-size: 16px 16px;
+            background-repeat: no-repeat;
+            background-position: left center;
+            font-size: 13px;
+            line-height: 18px;
+            color: #666666;
+        }
+
+        .services-media__link--whatsapp {
+            background-image: url("../images/media-whatsapp.svg");
+        }
+
+        .services-media__link--telegram {
+            background-image: url("../images/media-telegram.svg");
+        }
+
+
+@media (max-width: 767px) {
+    .maxwidth-banner {
+        background-size: cover !important;
+        background-position: center center;
+    }
+}
