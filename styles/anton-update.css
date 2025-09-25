@@ -43,8 +43,7 @@
         gap: 4px;
     }
         .mobile-channels__link {
-            padding: 6px 4px;
-            padding-left: 16px;
+            padding: 6px 4px 6px 18px;
             background-size: 14px 14px;
             background-repeat: no-repeat;
             background-position: left center;
