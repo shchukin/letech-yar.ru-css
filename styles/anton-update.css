@@ -133,3 +133,54 @@
 }
 
 
+
+.contacts-grid {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+    .contacts-grid__item {
+        flex-grow: 1;
+        flex-basis: 0;
+    }
+    
+@media (max-width: 991px) {
+
+    .contacts-grid {
+        display: block;
+    }
+        .contacts-grid__item {
+            margin-top: 24px;
+        }
+}    
+
+
+
+.contacts-media {
+    display: flex;
+    flex-direction: column;
+}
+    .contacts-media__link {
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 24px;
+        background-size: 16px 16px;
+        background-repeat: no-repeat;
+        background-position: left center;
+        font-size: 13px;
+        line-height: 18px;
+        color: #666666;
+    }
+
+    .contacts-media__link:hover {
+        color: #666666;
+    }
+
+    .contacts-media__link--whatsapp {
+        background-image: url("../images/media-whatsapp.svg");
+    }
+
+    .contacts-media__link--telegram {
+        background-image: url("../images/media-telegram.svg");
+    }
+
