@@ -1,0 +1,26 @@
+.header-media {
+    margin-left: 32px;
+    display: inline-flex;
+    vertical-align: top;
+    align-items: center;
+    gap: 20px;
+}
+    .header-media__link {
+        margin: -4px;
+        padding: 4px;
+        padding-left: 24px;
+        background-size: 16px 16px;
+        background-repeat: no-repeat;
+        background-position: left center;
+        font-size: 13px;
+        line-height: 18px;
+        color: #666666;
+    }
+
+    .header-media__link--whatsapp {
+        background-image: url("../images/header-media-whatsapp.svg");
+    }
+
+    .header-media__link--telegram {
+        background-image: url("../images/header-media-telegram.svg");
+    }
