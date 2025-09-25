@@ -24,3 +24,52 @@
     .header-media__link--telegram {
         background-image: url("../images/header-media-telegram.svg");
     }
+
+
+
+
+.footer-media {
+    padding-left: 43px;
+    margin-bottom: 19px;
+    background-image: url("../images/footer-media.svg");
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: left 3px;
+    display: flex;
+    flex-direction: column;
+}
+    .footer-media__link {
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 24px;
+        background-size: 16px 16px;
+        background-repeat: no-repeat;
+        background-position: left center;
+        font-size: 13px;
+        line-height: 18px;
+        color: #FFFFFF;
+    }
+
+    .footer-media__link:hover {
+        color: #FFFFFF;
+    }
+
+    .footer-media__link--whatsapp {
+        background-image: url("../images/header-media-whatsapp.svg");
+    }
+
+    .footer-media__link--telegram {
+        background-image: url("../images/header-media-telegram.svg");
+    }
+
+
+@media (max-width: 767px) {
+
+    .footer-media {
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: none;
+        padding-left: 0;
+    }
+}
