@@ -1,0 +1,270 @@
+/* CSS kod pishite v etom faile, chotobi pri ustanovke obnovlenii ne bilo problem  */
+/* --------------------------------------- */
+/* Here you can put custom css rules for your site */
+
+.logo-block {
+
+    margin: 0 auto;
+    text-align: center;
+}
+
+.wrap-portfolio-front {
+    background: #222222;
+}
+
+
+#headerfixed .logo-row .logo img {
+    max-height: 36px;
+
+
+}
+
+
+.form .form-group .hint {
+    font-size: 10px;
+    line-height: 18px;
+    margin-top: 7px;
+    color: #d3d3d3;
+}
+
+.uploader .action {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background: #435d77;
+    border-bottom: 1px solid #435d77;
+    border-radius: 3px;
+    color: #fff;
+    padding: 7px 12px;
+    font-size: 13px;
+    line-height: 15px;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+.uploader .filename {
+    overflow: hidden;
+    display: inline-block;
+    width: 100%;
+    white-space: nowrap;
+    font-size: 13px;
+    color: #9aa6ae;
+    position: relative;
+    top: -5px;
+    padding: 14px 9px 9px 155px;
+    text-overflow: ellipsis;
+}
+
+.uploader input[type=file] {
+    z-index: 10;
+    opacity: 0;
+    border: none;
+    background: 0 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    /* padding: 10px; */
+    float: right;
+    cursor: default;
+    width: 100%;
+    height: 100%;
+}
+
+.uploader {
+    border: 1px solid #f5f5f5;
+    padding: 3px;
+    border-radius: 0;
+    height: 50px;
+    position: relative;
+}
+
+.uploader .action {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background: #c6c6c6;
+    border-bottom: 1px solid #c6c6c6;
+    border-radius: 3px;
+    color: #fff;
+    padding: 7px 12px;
+    font-size: 13px;
+    line-height: 15px;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+.banners-big .slides .title {
+    font-size: 48px;
+    text-align: left;
+}
+
+@media (max-width: 767px) {
+
+    .banners-big .slides .title {
+        font-size: 25px !important;
+        line-height: 25px;
+        padding: 0 0 10px;
+        text-align: center !important;
+    }
+
+}
+
+.item-views.partners.front.blocks {
+    padding: 0px 0 0 0px !important;
+}
+
+@media (max-width: 400px) {
+    .front .btn-default-banner {
+        padding-top: 7px;
+        padding-bottom: 8px;
+        font-size: 14px;
+    }
+}
+
+.btn-default-banner  {
+    background-color: white;
+    color:#e65100 !important;
+    border-color:white !important;
+}
+
+.black_top {
+
+    height: 36px;
+}
+
+.top-block {
+    padding: 0px !important;
+}
+
+.text_about {
+    padding-left: 44px !important;
+}
+
+.top-block-item {
+    padding-top: 8px !important;
+}
+
+.phone-block .callback-block {
+    padding-left: 20px !important;
+}
+
+.menu-row {
+    /*padding-left: 65px;*/
+}
+
+.maxwidth-theme.item-views.blocks {
+    max-width: 1000px !important;
+}
+
+.partners.front .flexslider .flex-viewport {
+    border: none;
+}
+
+.partners.front .flexslider .slides>li .item:after, .partners.front .flexslider .slides>li .item:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    background: none !important;
+    display: block;
+    width: 1px;
+    height: 100%;
+}
+
+.services_fronts {
+    margin-top: 60px;
+}
+
+.logo-row .logo img {
+    max-height: 100%;
+    max-width: 100%;
+   /* padding-left: 14px;*/
+}
+
+
+.top-block {
+
+   
+
+}
+
+.form_email {
+    display: inline-block;
+}
+
+.email_tr {
+    padding-top: 25px;
+}
+
+.email_tr button[type="submit"] {
+    font-size: 14px !important;
+    border-radius: 0px 5px 5px 0px !important;
+    height: 49px !important;
+}
+
+
+.email_tr #EMAIL {
+
+    border-radius: 5px 0px 0px 5px;
+}
+
+.succes_mes {
+    color: white !important;
+    font-size: 16px !important;
+    text-align: center;
+}
+
+
+.form_email {
+    width: 70%;
+}
+
+.top-block .top-block-item .phone {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    max-width: 226px;
+    font-size: .933em;
+    font-weight: 700;
+    line-height: 18px;
+    margin-right: 27px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 991px) {
+    body h1.shares {
+        padding-right: 0;
+        padding-bottom: 0;
+        padding-top: 20px !important;
+        font-size: 30px;
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .item-views.blocks h3 {
+        display: block;
+        font-size: 30px;
+        line-height: 32px;
+    }
+
+    body.with_banners.mheader-v1.header-v1.title-v3.with_phones .maxwidth-banner {
+        background-repeat: repeat-y !important;
+    }
+
+    .about_text p {
+        margin:0px 20px 0px 20px !important;
+    }
+}
+
+.dark_block_animate:hover {
+    cursor: text;
+}
+
+.review .text {
+    margin-bottom: 25px;
+}
+
+.review .col-md-2.item_review {
+    padding-left: 0px !important;
+    padding-top: 10px;
+
+}
