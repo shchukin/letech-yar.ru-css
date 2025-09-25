@@ -27,6 +27,41 @@
 
 
 
+.mobile-channels {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 24px;
+    padding-top: 4px;
+}
+    .mobile-channels__original-phone-section {
+
+    }
+
+    .mobile-channels__media {
+        display: flex;
+        align-items: stretch;
+        gap: 4px;
+    }
+        .mobile-channels__link {
+            padding: 6px 4px;
+            padding-left: 16px;
+            background-size: 14px 14px;
+            background-repeat: no-repeat;
+            background-position: left center;
+            font-size: 11px;
+            line-height: 18px;
+            color: #222222;
+        }
+
+        .mobile-channels__link--whatsapp {
+            background-image: url("../images/header-media-whatsapp.svg");
+        }
+
+        .mobile-channels__link--telegram {
+            background-image: url("../images/header-media-telegram.svg");
+        }
+
+
 
 .footer-media {
     padding-left: 43px;
@@ -73,3 +108,5 @@
         padding-left: 0;
     }
 }
+
+
