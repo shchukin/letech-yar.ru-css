@@ -1,3 +1,7 @@
+.nobr {
+    white-space: nowrap;
+}
+
 .header-media {
     margin-left: 32px;
     display: inline-flex;
@@ -60,6 +64,9 @@
     .mobile-channels__original-phone-section {
 
     }
+        .infoTel {
+            display: block; /* По какой-то причине телефон скрывался на планшетах. Возвращаем. */
+        }
 
     .mobile-channels__media {
         display: flex;
@@ -89,7 +96,7 @@
 .footer-media {
     padding-left: 43px;
     margin-bottom: 19px;
-    background-image: url("../images/footer-media.svg");
+    background-image: url("../images/fa-comments.svg");
     background-size: 20px 20px;
     background-repeat: no-repeat;
     background-position: left 3px;
@@ -143,7 +150,16 @@
         flex-grow: 1;
         flex-basis: 0;
     }
-    
+        .contacts table td .fa.big-icon {
+            margin: 0 16px 16px 0;
+        }
+
+        @media (min-width: 992px) and (max-width: 1200px) {
+            .contacts.contacts-page-map-overlay table td:first-child {
+                display: none;
+            }
+        }
+
 @media (max-width: 991px) {
 
     .contacts-grid {
