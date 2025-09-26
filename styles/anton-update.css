@@ -103,7 +103,6 @@
     background-position: left top;
 }
     .footer-media__heading {
-        font-weight: 600;
         font-size: 13px;
         line-height: 18px;
     }
@@ -220,7 +219,7 @@
     .services-media__heading {
         font-size: 13px;
         line-height: 20px;
-        font-weight: 600;
+        font-weight: bold;
     }
 
     .services-media__list {
@@ -235,7 +234,7 @@
             gap: 8px;
             padding: 12px 16px;
             border-radius: 2px;
-            font-weight: 600;
+            font-weight: bold;
             font-size: 13px;
             line-height: 18px;
             color: #FFFFFF;
