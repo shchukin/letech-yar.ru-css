@@ -95,37 +95,47 @@
 
 .footer-media {
     padding-left: 43px;
+    padding-top: 2px;
     margin-bottom: 19px;
     background-image: url("../images/fa-comments.svg");
     background-size: 20px 20px;
     background-repeat: no-repeat;
-    background-position: left 3px;
-    display: flex;
-    flex-direction: column;
+    background-position: left top;
 }
-    .footer-media__link {
-        padding-top: 4px;
-        padding-bottom: 4px;
-        padding-left: 24px;
-        background-size: 16px 16px;
-        background-repeat: no-repeat;
-        background-position: left center;
+    .footer-media__heading {
+        font-weight: 600;
         font-size: 13px;
         line-height: 18px;
-        color: #FFFFFF;
     }
 
-    .footer-media__link:hover {
-        color: #FFFFFF;
+    .footer-media__list {
+        margin-top: 4px;
+        display: flex;
+        flex-direction: column;
     }
+        .footer-media__link {
+            padding-top: 4px;
+            padding-bottom: 4px;
+            padding-left: 24px;
+            background-size: 16px 16px;
+            background-repeat: no-repeat;
+            background-position: left center;
+            font-size: 13px;
+            line-height: 18px;
+            color: #FFFFFF;
+        }
 
-    .footer-media__link--whatsapp {
-        background-image: url("../images/media-whatsapp.svg");
-    }
+        .footer-media__link:hover {
+            color: #FFFFFF;
+        }
 
-    .footer-media__link--telegram {
-        background-image: url("../images/media-telegram.svg");
-    }
+        .footer-media__link--whatsapp {
+            background-image: url("../images/media-whatsapp.svg");
+        }
+
+        .footer-media__link--telegram {
+            background-image: url("../images/media-telegram.svg");
+        }
 
 
 @media (max-width: 767px) {
@@ -137,6 +147,13 @@
         background-image: none;
         padding-left: 0;
     }
+        .footer-media__heading {
+            display: none;
+        }
+
+        .footer-media__list {
+            margin-top: 0;
+        }
 }
 
 
