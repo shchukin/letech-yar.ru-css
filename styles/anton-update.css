@@ -247,12 +247,10 @@
 
 
         .services-media__link--whatsapp {
-            width: 160px;
             background-color: #25D366;
         }
 
         .services-media__link--telegram {
-            width: 149px;
             background-image: linear-gradient(#2AABEE, #229ED9);
         }
             .services-media__link::before {
